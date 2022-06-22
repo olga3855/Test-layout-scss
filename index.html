@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext"
+    rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.js"
+    type="text/javascript"></script>
+</head>
+
+<body>
+  <div class="main-container">
+    <header>
+      <nav class="navigation">
+        <div class="burger">
+          <span class="burger__icon"></span>
+        </div>
+        <ul class="hidden">
+          <li class="navigation__item">
+            <a href="" class="navigation__link active"><img src="./assets/vector.svg" alt="vector"></a>
+          </li>
+          <li class="navigation__item">
+            <a href="" class="navigation__link">Каталог</a>
+          </li>
+          <li class="navigation__item">
+            <a href="" class="navigation__link">Преимущества</a>
+          </li>
+          <li class="navigation__item">
+            <a href="" class="navigation__link">Примеры работ</a>
+          </li>
+          <li class="navigation__item">
+            <a href="" class="navigation__link">Монтаж</a>
+          </li>
+          <li class="navigation__item">
+            <a href="" class="navigation__link">Отзывы</a>
+          </li>
+          <li class="navigation__item">
+            <a href="" class="navigation__link">Ответы на вопросы</a>
+          </li>
+          <li class="navigation__item">
+            <a href="" class="navigation__link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <hr>
+      <div class="about">
+        <div class="information">
+          <p><b>Кровельные и фасадные <br> материалы</b> в Тюмени и области. </p><br>
+          <p>Профессиональный монтаж <br> с 2010 года.</p>
+        </div>
+        <div class="pdf__file">
+          <div class="pdf__img">
+            <img src="./assets/pdf.png" alt="pdf">
+          </div>
+          <div>
+            <a href="" class="price"><b>Скачать прайс-каталог</b></a>
+          </div>
+        </div>
+        <div class="logo">
+          <img src="./assets/logo.png" alt="logo">
+        </div>
+
+        <div class="main__contacts">
+          <span class="contacts">Отвечаем <b>онлайн</b></span>
+          <div>
+            <a href="https://www.viber.com/ru/" target="_blank" rel="noopener noreferrer"><img src="./assets/viber.png"
+                alt="viber" class="img"></a>
+            <a href="https://www.whatsapp.com/?lang=ru" target="_blank" rel="noopener noreferrer"><img
+                src="./assets/whatsApp.png" alt="whatsApp" class="img"></a>
+            <a href="https://web.telegram.org/z/" target="_blank" rel="noopener noreferrer"><img
+                src="./assets/telegram.png" alt="telegram" class="img"></a>
+          </div>
+        </div>
+
+        <div class="telephone">
+          <p><b>Пн-Пт</b> 9:00 - 18:00, <b>Сб</b> 10:00 - 18:00</p>
+          <p>8 (800) 222-54-60</p>
+          <p class="order"><a href="#" class="order__link"><b>Позвоните мне</b></a></p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main__aside">
+        <div>
+          <p><b>Гарантия от 50 лет</b> на материалы и 5 лет на монтаж</p>
+        </div>
+        <div>
+          <p><b>Замер, монтажный проект</b> и еще 4 услуги бесплатно</p>
+        </div>
+        <div>
+          <p><b>Сметы точны</b> до копейки</p>
+        </div>
+        <div>
+          <p><b>Поэтапная оплата,</b> кредит или рассрочка</p>
+        </div>
+        <div>
+          <p><b>Наши крыши в каждом поселке</b> и дачном сообществе региона</p>
+        </div>
+      </div>
+
+      <div class="main__text">
+        <h1>Продажа <b>кровельных материалов</b> в Тюмени и Тюменской области</h1>
+        <h3>
+          <img src="./assets/circles.png" alt="circles">
+          и монтаж под ключ
+        </h3>
+        <div class="btn">
+
+          <button><span>Рассчитать стоимость материалов и монтажа</span><img src="./assets/arrow.png"
+              alt="arrow"></button>
+          <button><span>Записаться на просмотр объектов</span><img src="./assets/arrow.png" alt="arrow"></button>
+
+        </div>
+
+        <div class="info">
+
+          <div>
+            <p>
+              <b>Ответьте на несколько вопросов и получите</b> сметную стоимость и 3 подарка за экономию вашего времени
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- <div class="order-modal">
+    <span class="close-icon">&#215;</span>
+    <p class="order-modal__title">
+      Быстро оставить заявку
+    </p>
+    <p class="order-modal__text">
+      Введите номер, мы позвоним вам тв течение 10 минут в рабочее время
+    </p>
+    <p>Пн-Пт 9:00 - 18:00, Сб 10:00 - 18:00</p>
+    <form action="#" class="order-modal__form">
+    <span>Введите номер телефона</span>
+    <input type="text" placeholder="+7(___) __-__-__" class="phone_mask">
+      
+      <button type="submit" id="submit">Позвоните мне &#8594</button>
+      <div>
+        
+      <label for="phone"><input type="checkbox" id="phone">Нажимая кнопку вы соглашаетесь с условиями</label>
+      <a href="#">Политики конфиденциальности</a>
+      </div>
+    </form>
+  </div>
+  <div class="submit-modal">
+    <span class="close-icon">&#215;</span>
+    <span class="done-icon"></span>
+    <p class="title">Ваш заказ принят.</p>
+    <p class="tip">Ожидайте звонка</p>
+  </div>
+ -->
+  </div>
+
+  <script type='module' src="script.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
+</body>
+
+</html>
